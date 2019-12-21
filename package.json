@@ -1,0 +1,17 @@
+{
+  "name": "classicraidmanager",
+  "version": "0.0.1",
+  "description": "Web application featuring robust raid and guild management for WoW Classic.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "raid",
+    "guild",
+    "management",
+    "suite"
+  ],
+  "author": "matsumouri",
+  "license": "ISC"
+}
