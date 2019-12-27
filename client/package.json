@@ -4,7 +4,8 @@
   "description": "React Client for Capo Raid Manager",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode prod"
   },
   "author": "matsumouri",
   "license": "ISC",
