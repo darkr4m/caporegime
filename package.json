@@ -1,5 +1,5 @@
 {
-  "name": "classicraidmanager",
+  "name": "capo-raid-manager",
   "version": "0.0.1",
   "description": "Web application featuring robust raid and guild management for WoW Classic.",
   "main": "server.js",
