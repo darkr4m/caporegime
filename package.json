@@ -4,7 +4,10 @@
   "description": "Web application featuring robust raid and guild management for WoW Classic.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "server": "echo \"Starting nodemon watcher on server.js!\" && nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" && \"npm run client\""
   },
   "keywords": [
     "raid",
@@ -13,5 +16,8 @@
     "suite"
   ],
   "author": "matsumouri",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.0.2"
+  }
 }
