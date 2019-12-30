@@ -15,7 +15,27 @@ module.exports = {
             },
             {
                 test:/\.scss$/,
-                use: ['style-loader', 'css-loader', "sass-loader"]
+                use: [{
+                    loader: 'style-loader',
+                },
+                {
+                    loader: 'css-loader'
+                },
+                {
+                    loader: 'postcss-loader',
+                    options: {
+                        plugins: function (){
+                            return [
+                                require('precss'),
+                                require('autoprefixer')
+                            ];
+                        }
+                    }
+                },
+                {
+                    loader: 'sass-loader'
+                }
+            ]
             },
             {
                 test: /\.js$/,
