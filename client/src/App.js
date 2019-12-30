@@ -13,6 +13,11 @@ class App extends Component {
                 <Fragment>
                     <Navbar />
                     <Route exact path='/' component={Landing} />
+                    <div className="container-fluid p-0">
+                        <Switch>
+                            <Route exact path='/register' component={Register} />
+                            <Route exact path='/login' component={Login} />                        </Switch>
+                    </div>
                 </Fragment>
             </Router>
         )
