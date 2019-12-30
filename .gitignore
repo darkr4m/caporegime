@@ -108,5 +108,5 @@ dist
 
 *-lock.json
 
-#config file
-default.json
+#config files
+config/
