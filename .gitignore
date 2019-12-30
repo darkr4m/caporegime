@@ -107,3 +107,6 @@ dist
 .vscode-test
 
 *-lock.json
+
+#config file
+default.json
