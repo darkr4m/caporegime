@@ -109,4 +109,4 @@ dist
 *-lock.json
 
 #config files
-config/
+default.json
